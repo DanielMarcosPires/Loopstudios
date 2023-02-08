@@ -1,0 +1,36 @@
+.header{
+    position: absolute;
+   
+    z-index: 1;
+    text-align: left;
+    padding: calc(32px*2) 0;
+    filter: brightness(1);
+    width: 100%;
+}
+.header img{
+    filter: brightness(1);
+}
+
+.headerMargin{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+}
+.headerLink{
+    color: var(--branco);
+    font-weight: bold;
+    text-shadow: 0 0 2px var(--preto);
+    text-decoration: none;
+    transition: .5s;
+}
+.headerLink:hover{
+    transform: translateY(-2px);
+    border-bottom: solid 1px var(--branco);
+}

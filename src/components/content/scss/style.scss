@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%;
+}
+.flex2{
+    justify-content: space-between;
+    width: 79%;
+}
+@mixin familia($valor) {
+    font-family: $valor;
+  }
+  
+.criacaoTitulo{
+    @include familia('Alata');
+   position: absolute;
+   color: var(--branco);
+    text-transform: uppercase;
+
+}
+.tituloCriacao{
+    text-transform: uppercase;
+    font-family: 'josefin sans';
+    font-size: 30px;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+@mixin familia($valor) {
+  font-family: $valor;
+}
+@mixin quadrado($valor) {
+  padding: $valor;
+}
+.posterCard {
+  @include quadrado(50px);
+  position: absolute;
+  background: var(--branco);
+  right: 0;
+  bottom: 0;
+  width: 500px;
+}
+
+.posterCard h2 {
+  @include familia('Josefin sans');
+  text-transform: uppercase;
+  font-size: 40px;
+  width: 500px;
+}
+.posterCard p{
+  @include familia('Alata');
+  color:var(--cinzaMuitoEscuro);
+}

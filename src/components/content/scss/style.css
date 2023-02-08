@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex2 {
+  justify-content: space-between;
+  width: 79%;
+}
+
+.criacaoTitulo {
+  font-family: "Alata";
+  position: absolute;
+  color: var(--branco);
+  text-transform: uppercase;
+}
+
+.tituloCriacao {
+  text-transform: uppercase;
+  font-family: "josefin sans";
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */

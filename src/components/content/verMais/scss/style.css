@@ -1,0 +1,16 @@
+.seeAll-button {
+  border: none;
+  outline: none;
+  border: solid 1px;
+  background: #fff;
+  font-family: "Alata";
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 4px;
+  width: 150px;
+  height: 50px;
+}
+
+.seeAll-button:hover {
+  background: #ebebeb;
+}/*# sourceMappingURL=style.css.map */

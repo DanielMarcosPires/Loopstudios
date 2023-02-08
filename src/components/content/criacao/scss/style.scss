@@ -1,0 +1,26 @@
+@mixin familia($valor){
+    font-family:$valor ;
+}
+.limite{
+    position: relative;
+    transition: .5s;
+}
+.limite:hover{
+    box-shadow: 0 0 10px #000;
+    transform:  translateY(-10px)
+}
+.limite:hover h2{
+    background: #fff;
+    color: #000;
+}
+.limite h2{
+    @include familia('josefin sans');
+    bottom: 10%;
+    padding: 8px 15px 0 0;
+    position: absolute;
+    transition: .5s;
+    font-size: 30px;
+    right: 30%;
+    text-align: left;
+    width: 55%;
+}

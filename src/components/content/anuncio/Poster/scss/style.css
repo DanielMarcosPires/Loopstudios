@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+.posterCard {
+  padding: 50px;
+  position: absolute;
+  background: var(--branco);
+  right: 0;
+  bottom: 0;
+  width: 500px;
+}
+
+.posterCard h2 {
+  font-family: "Josefin sans";
+  text-transform: uppercase;
+  font-size: 40px;
+  width: 500px;
+}
+
+.posterCard p {
+  font-family: "Alata";
+  color: var(--cinzaMuitoEscuro);
+}/*# sourceMappingURL=style.css.map */

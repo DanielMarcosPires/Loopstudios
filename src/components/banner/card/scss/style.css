@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@500&family=Josefin+Sans:ital,wght@1,300&display=swap");
+.card {
+  font-family: "Anek Gujarati", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Josefin sans";
+  font-weight: 300;
+  bottom: 15%;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  box-shadow: -2px 2px 2px 2px var(--branco), 2px -2px 2px 2px var(--roxo);
+  border-radius: 10px;
+  margin: 0 1.8em;
+  padding: 0 3em 0 1em;
+  color: var(--branco);
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+}/*# sourceMappingURL=style.css.map */

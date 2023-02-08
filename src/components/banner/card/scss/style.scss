@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@500&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+@mixin familia($valor) {
+  font-family: $valor;
+}
+
+@mixin font($valor1, $valor2){
+    font-family: 'Anek Gujarati', sans-serif;
+    text-transform: uppercase;
+    text-align: $valor1;
+    font-size: $valor2;
+
+}
+
+.card {
+  @include font(left,30px);
+  @include familia('Josefin sans');
+  font-weight: 300;
+  bottom: 15%;
+  backdrop-filter: blur(8px);
+  $espalhamento:2px;
+  box-shadow:
+   -2px 2px $espalhamento 2px var(--branco),
+   2px -2px $espalhamento 2px var(--roxo);
+  border-radius: 10px;
+  margin: 0 1.8em;
+  padding: 0 3em 0 1em;
+  color: var(--branco);
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+}

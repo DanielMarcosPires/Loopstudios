@@ -1,0 +1,51 @@
+.Rodape{
+    background: var(--preto);
+    padding: 30px;
+    text-align: center;
+    margin: 5em 0 0 0;
+    display: flex;
+}
+.Rodape div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Rodape nav{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.RodapeLink{
+    display: inline-block;
+    font-family: 'Alata';
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 8px;
+    transition: .5s;
+}
+.RodapeLink:hover{
+    background: #fff;
+    color: #000;
+}
+.Rodape address{
+    display: flex;
+    gap: 16px;
+    color: #fff;
+}
+.Rodape address a{
+    box-shadow: 0 1px 1px #fff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-bottom:solid 1px ;
+    padding: 8px;
+    transition: .5s;
+}
+.Rodape address a:hover{
+    background: #fff;
+    color: #000;
+}
