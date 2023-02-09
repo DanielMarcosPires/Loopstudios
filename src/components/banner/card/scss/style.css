@@ -17,4 +17,10 @@
   position: absolute;
   z-index: 1;
   width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,26 +1,25 @@
 .Rodape {
   background: var(--preto);
   padding: 30px;
-  text-align: center;
   margin: 5em 0 0 0;
-  display: flex;
+  width: vw;
+}
+
+.RodapeImage {
+  max-width: 500px;
 }
 
 .Rodape div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .Rodape nav {
-  display: flex;
-  justify-content: center;
+  color: #fff;
   gap: 8px;
+  width: 100%;
 }
 
 .RodapeLink {
-  display: inline-block;
   font-family: "Alata";
   color: #fff;
   border-radius: 10px;
@@ -30,29 +29,27 @@
   transition: 0.5s;
 }
 
-.RodapeLink:hover {
-  background: #fff;
-  color: #000;
-}
-
-.Rodape address {
+.rodapeRedes {
   display: flex;
-  gap: 16px;
-  color: #fff;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.Rodape address a {
-  box-shadow: 0 1px 1px #fff;
+.rodapeRedes div {
+  width: 300px;
+}
+
+.rodapeRedes a {
   color: #fff;
-  font-size: 18px;
-  border-radius: 10px;
   text-decoration: none;
-  border-bottom: solid 1px;
+  box-shadow: 0 3px 5px 0.2px #fff;
+  border-radius: 10px;
   padding: 8px;
   transition: 0.5s;
 }
 
-.Rodape address a:hover {
+.rodapeRedes a:hover {
   background: #fff;
   color: #000;
 }/*# sourceMappingURL=style.css.map */

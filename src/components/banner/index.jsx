@@ -3,7 +3,7 @@ export default function Banner(props) {
   return (
     <div className="banner">
       {props.children}
-      <img src={props.caminho} alt="" />
+      <img className="bannerFundo" src={props.fundo} alt/>
     </div>
   );
 }

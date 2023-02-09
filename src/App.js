@@ -1,6 +1,7 @@
 import "./App.css";
 
 import imagem from "./img/banner.jpg";
+
 import Banner from "./components/banner";
 import Cabecalho from "./components/banner/cabecalho";
 import Card from "./components/banner/card";
@@ -10,7 +11,7 @@ import Rodape from "./components/rodape";
 function App() {
   return (
     <div className="App">
-      <Banner caminho={imagem}>
+      <Banner fundo={imagem}>
         <Cabecalho />
         <Card />
       </Banner>

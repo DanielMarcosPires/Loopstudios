@@ -8,6 +8,13 @@
   width: 500px;
 }
 
+@media screen and (max-width: 800px) {
+  .posterCard {
+    scale: 0.8;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 .posterCard h2 {
   font-family: "Josefin sans";
   text-transform: uppercase;

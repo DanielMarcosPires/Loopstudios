@@ -22,7 +22,7 @@ export default function Rodape() {
             Support
           </a>
         </nav>
-        <address>
+        <nav className="rodapeRedes">
             <div>
               <h3>Challenge by:</h3>
               <a target='_blank' href="https://www.frontendmentor.io/home">FrontendMentor.io</a>
@@ -39,7 +39,7 @@ export default function Rodape() {
                   Daniel Marcos Pires
               </a>
             </div>
-        </address>
+        </nav>
       </div>
     </footer>
   );
